@@ -7,7 +7,7 @@ request-exec-plan: {
                 request: http: //resim.com/MySimulationPlan-SubPlan-A
                 sendAfter: 5s
                 responseDelay: 0s
-                responseOutCome: succeed,
+                responseOutCome: succeed //(outcomes can be *Succeed (2xx), *Fail (5xx), SucceedAfterNTmes: (Fail until N times requested, then Succeed)
             },
             {
                 request: http: //resim.com/MySimulationPlan-SubPlan-A

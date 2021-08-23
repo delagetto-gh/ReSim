@@ -1,3 +1,5 @@
+
+```json
 when i design a simulation with the following plan: {
 request-exec-plan: {
     executions: [
@@ -40,3 +42,4 @@ resiliency-plan: {
 WorstCaseSimExecTime = T + (r w/ longest: rSendafter + min(rDelay, tO ?? rDelay)) + (rT ?? 1 * (r w/ longest: rSendafter + min(rDelay, tO ?? rDelay)))
 MaxAllowedSimulationExecutionDuration = 1minute
 simulationduration = min(totalSimExecTime, MaxAllowedSimulationExecutionDuration)
+```
